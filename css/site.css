@@ -1,0 +1,19 @@
+:root {
+  --bg: #fafafa;
+  --font: "Archivo", sans-serif;
+  --font-display: "Archivo Narrow", sans-serif;
+  --morado: #57339d;
+  --lila: #6d9cd1;
+  --gradient: linear-gradient(35deg, var(--lila), var(--morado));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+}
